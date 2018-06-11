@@ -1,0 +1,30 @@
+.listFieldsPicker {
+  .spinner {
+    float: right;
+    margin-top: 10px;
+    margin-right: -20px;
+  }
+  .itemContent {
+    display: flex;
+    justify-content: space-between;
+    margin: 3px 0 3px 0;
+    &:first{
+        margin: 3px 0 0 0;
+    }
+    &:last{
+        margin: 0 0 3px 0;
+    }
+  }
+  .itemContentEven {
+    background-color: #f4f4f4;
+  }
+  .itemContentOdd {
+    background-color: #ffffff;
+  }
+  .listDropdown {
+    // max-width: 75px;
+    button{
+        width: auto !important;
+    }
+  }
+}
